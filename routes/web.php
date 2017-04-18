@@ -23,7 +23,9 @@ Route::get('/test', function () {
 Route::get('/welcome', function () {
     return view('welcome');
 });
-
+Route::get('/class', function () {
+    return view('class');
+});
 Route::get('/home/login',function (){
   return view('s');
 })->name('login');
