@@ -629,6 +629,7 @@ table.fc-border-separate {
     </div>
 </div>
   </body>
+  <script src="{{ asset('js/jquery.min.js')}}"></script>
   <script>
   $(function (){
   $.getScript('http://arshaw.com/js/fullcalendar-1.6.4/fullcalendar/fullcalendar.min.js',function(){
