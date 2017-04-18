@@ -2,597 +2,165 @@
 <html lang="en">
 
   <head>
-    
     <!-- Meta Tag -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
+
     <!-- SEO -->
     <meta name="description" content="150 words">
     <meta name="author" content="uipasta">
     <meta name="url" content="http://www.yourdomainname.com">
     <meta name="copyright" content="company name">
     <meta name="robots" content="index,follow">
-    
-    
+
+
     <title>Mayc Dance</title>
-    
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}">
     <link rel="apple-touch-icon" sizes="144x144" type="image/x-icon" href="{{ asset('img/apple-touch-icon.png') }}">
-    
+
     <!-- All CSS Plugins -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/plugin.css') }}">
-    
+
     <!-- Main CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
-    
+
     <!-- Google Web Fonts  -->
     <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700"> -->
-    
-    
+
+
     <!-- HTML5 shiv and Respond.js support IE8 or Older for HTML5 elements and media queries -->
     <!--[if lt IE 9]>
 	   <script src="{{ asset('js/html5.js')}}"></script>
 	   <script src="{{ asset('js/respond.min.js')}}"></script>
     <![endif]-->
-    
+
 
  </head>
+<style type="text/css">
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent; }
 
+body {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+textarea, input, select {
+  font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+:focus {
+  outline: 0; }
+html {
+-webkit-text-size-adjust: none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display: block;
+}
+
+img {
+max-width: 100%;
+height: auto;
+width: auto\9; /* ie8 */
+}
+.video embed, .video object, .video iframe {
+width: 100%;
+height: auto;
+}
+</style>
   <body>
-    
-    
-	
-	<!-- Preloader Start -->
-    <div id="preloader">
-	  <div class="loader"></div>
+<div style="display: block;">
+    <div style="position: absolute;top: 0px;width: 100%;display: block;">
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div style="top: 0px;height: 100%;width: 100%;background-color: rgba(255, 255, 255, 1);position: absolute;">
+            <div style="top: 0px;height: 100%;width: 100%;position: absolute;"></div>
+            <div></div>
+            <div style="top: 0px;height: 100%;width: 100%;position: absolute;"></div>
+        </div>
     </div>
-    <!-- Preloader End -->
-
-    
-    
-    <!-- Home & Menu Section Start -->
-    <header id="home" class="home-section">
-        
-        <div class="header-top-area">
-            <div class="container">
-                <div class="row">
-                
-                    <div class="col-sm-3">
-                        <div class="logo">
-                            <a href="index-2.html">MaycDance</a>
+    <div style="width: 76%;padding-bottom: 0px;min-height: 100%;position: relative;margin: 0 auto;">
+        <div style="width: 76%;position: static;top: 0px;">
+            <div style="width: 76%;position: absolute;top: 0px;height: 69px;left: 40%;">
+                <div style="width: 100%;left: -12%;"></div>
+                <div style="position: absolute; top: 0;right: 0;bottom: 0;left: 0;">
+                    <div style="left: 10%;width: 67%;position: absolute;top: 31px;height: 25px;">
+                        <div style="text-align: right;width: calc(100% - 0px);height: calc(100% - 0px);white-space: nowrap;display: inline-block;overflow: visible;position: relative;">
+                            <a style="display: inherit; color: grey; width: 74px; height: 25px; position: relative; box-sizing: border-box; overflow: visible;cursor: pointer;font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;" data-listposition="center" href="#" target="_self" ><p style="text-align: center; line-height: 25px;" >HOME</p></a>
+                            <a style="display: inherit; color: grey; width: 74px; height: 25px; position: relative; box-sizing: border-box; overflow: visible;cursor: pointer;font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;" data-listposition="center" href="" target="_self" ><p style="text-align: center; line-height: 25px;" >ABOUT</p></a>
+                            <a style="display: inherit; color: grey; width: 74px; height: 25px; position: relative; box-sizing: border-box; overflow: visible;cursor: pointer;font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;" data-listposition="center" href="" target="_self" ><p style="text-align: center; line-height: 25px;" >MUSIC</p></a>
+                            <a style="display: inherit; color: grey; width: 74px; height: 25px; position: relative; box-sizing: border-box; overflow: visible;cursor: pointer;font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;" data-listposition="center" href="" target="_self" ><p style="text-align: center; line-height: 25px;" >TOUR</p></a>
+                            <a style="display: inherit; color: grey; width: 74px; height: 25px; position: relative; box-sizing: border-box; overflow: visible;cursor: pointer;font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;" data-listposition="center" href="" target="_self" ><p style="text-align: center; line-height: 25px;" >GALLERY</p></a>
+                            <a style="display: inherit; color: grey; width: 74px; height: 25px; position: relative; box-sizing: border-box; overflow: visible;cursor: pointer;font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;" data-listposition="center" href="" target="_self" ><p style="text-align: center; line-height: 25px;" >EPK</p></a>
+                            <a style="display: inherit; color: grey; width: 74px; height: 25px; position: relative; box-sizing: border-box; overflow: visible;cursor: pointer;font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;" data-listposition="center" href="" target="_self" ><p style="text-align: center; line-height: 25px;" >CONTACT</p></a>
                         </div>
                     </div>
-                    
-                    <div class="col-sm-9">
-                        <div class="navigation-menu">
-                            <div class="navbar">
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                        <span class="sr-only">Toggle navigation</span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-                                </div>
-                                <div class="navbar-collapse collapse">
-                                    <ul class="nav navbar-nav navbar-right">
-                                        <li class="active"><a class="smoth-scroll" href="#home">首页 <div class="ripple-wrapper"></div></a>
-                                        </li>
-                                        <li><a class="smoth-scroll" href="#about">公告</a>
-                                        </li>
-                                        <li><a class="smoth-scroll" href="#portfolio">小伙伴们</a>
-                                        </li>
-                                        <li><a class="smoth-scroll" href="#testimonials">视频&图片</a>
-                                        </li>
-                                        <li><a class="smoth-scroll" href="#services">课程</a>
-                                        </li>
-                                        <li><a class="smoth-scroll" href="#contact">联系我们</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                </div>
+            </div>
+            <div style="    width: 76%;position: absolute;top: 69px;height: 696px;left: 0px;">
+                <div style="width: 100%;left: -12%;position: absolute;top: 0px;right: 0px;bottom: 0px;"></div>
+                <div style="left: 0px;width: 76%;height: 71%;">
+                    <div style="left: 194px;position: absolute;top: 0px;width: 910px;height: 70%;">
+                        <div style="display: block;overflow: hidden;position: relative;">
+                            <img style="object-fit: cover;" src="https://static.wixstatic.com/media/a38016_26f20c8c994c42be844b164e04070605.jpg/v1/fill/w_1820,h_1370,al_c,q_90,usm_0.66_1.00_0.01/a38016_26f20c8c994c42be844b164e04070605.webp">
                         </div>
                     </div>
+                    <div style="left: 30px;width: 607px;position: absolute;top: 334px;word-wrap: break-word;">
+                        <h2 style="margin: 0;letter-spacing: normal;font: normal normal bold 80px/1.1em raleway,sans-serif;color: #222222;">
+                            <span style="background-color: #ffffff;">MAYC </span>
+                        </h2>
+                         <h2 style="margin: 0;letter-spacing: normal;font: normal normal bold 80px/1.1em raleway,sans-serif;color: #222222;">
+                            <span style="background-color: #ffffff;">DACNE</span>
+                        </h2>
+                         <h2 style="margin: 0;letter-spacing: normal;font: normal normal bold 80px/1.1em raleway,sans-serif;color: #222222;">
+                            <span style="background-color: #ffffff;">期待你的加入 </span>
+                        </h2>
+                    </div>
+                    <div style="left: -5px;width: 461px;position: absolute;top: 244px;word-wrap: break-word;">
+                        <h1 style="margin: 0;line-height: normal;letter-spacing: normal; font: normal normal bold 30px/1.1em marzo-w00-regular,fantasy;color: #222222;">
+                            <a style="color: inherit;cursor: pointer;text-decoration: none;" href="#" target="_self"><span style="letter-spacing: 0.3em;">MAYC</span></a>
+                        </h1>
+                        <h1 style="margin: 0;line-height: normal;letter-spacing: normal;font: normal normal bold 30px/1.1em marzo-w00-regular,fantasy;color: #222222;">
+                            <a style="color: inherit;cursor: pointer;text-decoration: none;" href="#" target="_self"><span style="letter-spacing: 0.3em;">DANCE</span><span style="letter-spacing: 0.3em;">//</span></a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div style="width: 980px;position: absolute;left: 193px; height: 44px;bottom: auto;top: 765px;">
+                <div style="width: 1280px;left: -150px;position: absolute;"></div>
+                <div style="position: absolute;top: 0;right: 0;bottom: 0;left: 0;">
+                   <div style="position: absolute;top: 0;right: 0;bottom: 0;left: 0;"></div>
+                   <div style="left: 194px;width: 600px;top: 7px;">
+                    <p style="margin: 0;line-height: normal;letter-spacing: normal;font: normal normal normal 12px/1.3em helvetica-w01-light,helvetica-w02-light,sans-serif;color: #222222;">© 2023 by EMILIA COLE. Proudly created with <span style="text-decoration: underline;"><a style="color: inherit;cursor: pointer;text-decoration: none;">Mayc Dance</a></span></p>
+                   </div>
                 </div>
             </div>
         </div>
-        
-        <div class="home-section-background" data-stellar-background-ratio="0.6">
-            <div class="display-table">
-                <div class="display-table-cell">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <div class="header-text">
-                                    <p>Hi! This is Mayc Dance Studio</p>
-                                    <h2><span class="typing"></span></h2>
-                                    
-                                    {{--<div class="margin-top-60">--}}
-                          {{--<a class="button button-style button-style-icon fa fa-long-arrow-right smoth-scroll" href="#portfolio">View Portfolio</a>--}}
-                                  {{--</div>--}}
-                                
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </header>
-    <!-- Home & Menu Section End-->
-    
-    
-    
-    
-    <!-- About Start -->
-    <section id="about" class="about-section">
-         <div class="row">
-               
-              <div class="col-md-6 col-sm-12 col-xs-12">
-                <img class="img-responsive" src="{{ asset('img/me.jpg') }}" draggable="false" alt="">
-              </div>
-                
-              <div class="col-md-6 col-sm-12 col-xs-12">
-                <div class="about-me section-space-padding">
-                  
-                  <h2>About Me.</h2>
-                  
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                 </div>
-             
-              </div>
-                
-          </div>
-       </section>
-       <!-- About End -->
-
-    
-    <!-- Portfolio Start -->
-    <section id="portfolio" class="portfolio section-space-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="section-title">
-                        <h2>My Portfolio.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="row">
-                <ul class="portfolio">
-                    <li class="filter" data-filter="all">all</li>
-                    <li class="filter" data-filter=".apps">apps</li>
-                    <li class="filter" data-filter=".mockups">mockups</li>
-                    <li class="filter" data-filter=".wordpress">wordpress</li>
-                </ul>
-            </div>
-            
-            <div class="portfolio-inner">
-                <div class="row">
-                
-                
-                    <div class="col-md-4 col-sm-6 col-xs-12 mix apps">
-                        <div class="item">
-                            <a href="{{ asset('img/1.jpg') }}" class="portfolio-popup" title="Project Title">
-                                <img src="{{ asset('img/1.jpg') }}" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4 col-sm-6 col-xs-12 mix mockups">
-                        <div class="item">
-                            <a href="{{ asset('img/2.jpg') }}" class="portfolio-popup" title="Project Title">
-                                <img src="{{ asset('img/2.jpg') }}" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4 col-sm-6 col-xs-12 mix apps">
-                        <div class="item">
-                            <a href="{{ asset('img/3.jpg') }}" class="portfolio-popup" title="Project Title">
-                                <img src="{{ asset('img/3.jpg') }}" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4 col-sm-6 col-xs-12 mix mockups wordpress">
-                        <div class="item">
-                            <a href="{{ asset('img/4.jpg') }}" class="portfolio-popup" title="Project Title">
-                                <img src="{{ asset('img/4.jpg') }}" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4 col-sm-6 col-xs-12 mix wordpress apps">
-                        <div class="item">
-                            <a href="{{ asset('img/5.jpg') }}" class="portfolio-popup" title="Project Title">
-                                <img src="{{ asset('img/5.jpg') }}" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4 col-sm-6 col-xs-12 mix apps mockups wordpress" title="Project Title">
-                        <div class="item">
-                            <a href="{{ asset('img/6.jpg') }}" class="portfolio-popup">
-                                <img src="{{ asset('img/6.jpg') }}" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="text-center margin-top-50">
-          <a class="button button-style button-style-dark button-style-icon fa fa-long-arrow-right smoth-scroll" href="#contact">Let's Discuss</a>
-            </div>
-     
-     </section>
-    <!-- Portfolio End -->
-    
-    
-    
-     <!-- Testimonial Start -->
-     <section id="testimonials" class="testimonial-section section-space-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="section-title">
-                        <h2>Testimonials.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="testimonial-carousel-list margin-top-20">
-                
-                    <div class="testimonial-word text-center">
-                    <img src="{{ asset('img/1.png') }}" class="img-responsive" alt="">
-                        <h2>John doe</h2>
-                        <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duisauteiruredolor in reprehenderit in voluptate.</p>
-                    </div>
-                    
-                    <div class="testimonial-word text-center">
-                    <img src="{{ asset('img/2.png') }}" class="img-responsive" alt="">
-                        <h2>John doe</h2>
-                        <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duisauteiruredolor in reprehenderit in voluptate.</p>
-                    </div>
-                    
-                    <div class="testimonial-word text-center">
-                    <img src="{{ asset('img/3.png') }}" class="img-responsive" alt="">
-                        <h2>John doe</h2>
-                        <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duisauteiruredolor in reprehenderit in voluptate.</p>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Testimonial End -->
-    
-    
-    
-      <!-- statistics -->
-      <section class="statistics-section section-space-padding bg-cover text-center" data-stellar-background-ratio="0.3">
-         <div class="container">     
-
-            <div class="row">
-             <div class="statistics-center">  <!-- This code will work at max-width: 767px -->
-
-           <div class="col-md-3 col-sm-6">
-            <div class="statistics">
-              <div class="statistics-icon"><i class="fa fa-check-square-o color-1"></i>
-              </div>
-              <div class="statistics-content">
-                <h5><span data-count="2025" class="statistics-count">2025</span></h5><span>Projects Done</span>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-3 col-sm-6">
-            <div class="statistics">
-              <div class="statistics-icon"><i class="fa fa-smile-o color-3"></i>
-              </div>
-              <div class="statistics-content">
-                <h5> <span data-count="1200" class="statistics-count">1200</span></h5><span>Happy Clients</span>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-3 col-sm-6">
-            <div class="statistics">
-              <div class="statistics-icon"><i class="fa fa-hourglass-start color-5"></i>
-              </div>
-              <div class="statistics-content">
-                <h5><span data-count="8000" class="statistics-count">8000</span></h5><span>Hours of Work</span>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-3 col-sm-6">
-            <div class="statistics">
-              <div class="statistics-icon"><i class="fa fa-coffee color-4"></i>
-              </div>
-              <div class="statistics-content">
-                <h5><span data-count="4000" class="statistics-count">4000</span></h5><span>Cup of Coffee</span>
-              </div>
-            </div>
-            </div>
-
-           </div>
-         </div>
-       </div>
-    </section>
-    <!-- statistics end -->
-
-    
-    
-    
-    <!-- Services Start -->
-    <section id="services" class="services-section section-space-padding">
-        <div class="container">
-           <div class="row">
-                <div class="col-sm-12">
-                    <div class="section-title">
-                        <h2>My Services.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="row">
-            
-            <div class="col-md-4 col-sm-6">
-				<div class="services-detail">
-					<i class="fa fa-mobile color-1"></i>
-					<h3>Mobile Design</h3>
-					<hr>
-					<p>Rolling is a clean and beautiful template with every must features. You can use it for many purpose in website.</p>
-				</div>
-			</div>
-
-			<div class="col-md-4 col-sm-6">
-				<div class="services-detail">
-					<i class="fa fa-tablet color-2"></i>
-					<h3>Tablet Design</h3>
-					<hr>
-					<p>Rolling is a clean and beautiful template with every must features. You can use it for many purpose in website.</p>
-				</div>
-			</div>
-
-			<div class="col-md-4 col-sm-6">
-				<div class="services-detail">
-					<i class="fa fa-code color-3"></i>
-					<h3>Clean Code</h3>
-					<hr>
-					<p>Rolling is a clean and beautiful template with every must features. You can use it for many purpose in website.</p>
-				</div>
-			</div>
-            
-            <div class="col-md-4 col-sm-6">
-				<div class="services-detail">
-					<i class="fa fa-support color-4"></i>
-					<h3>Full Support</h3>
-					<hr>
-					<p>Rolling is a clean and beautiful template with every must features. You can use it for many purpose in website.</p>
-				</div>
-			</div>
-
-			<div class="col-md-4 col-sm-6">
-				<div class="services-detail">
-					<i class="fa fa-html5 color-5"></i>
-					<h3>HTML5 Design</h3>
-					<hr>
-					<p>Rolling is a clean and beautiful template with every must features. You can use it for many purpose in website.</p>
-				</div>
-			</div>
-
-			<div class="col-md-4 col-sm-6">
-				<div class="services-detail">
-					<i class="fa fa-ge color-6"></i>
-					<h3>CSS3 Design</h3>
-					<hr>
-					<p>Rolling is a clean and beautiful template with every must features. You can use it for many purpose in website.</p>
-				</div>
-			</div>
-            
-            </div>
-        </div>
-    </section>
-    <!-- Services End -->
-    
-    
-    
-    <!-- Call to Action Start -->
-    <section class="call-to-action section-space-padding text-center">
-       <div class="container">
-         <div class="row">
-           <div class="col-md-12">   
-             
-             <h2>Are You Looking For Your Business Online Presence?</h2>
-             
-             <div class="text-center margin-top-20">
-          <a class="button button-style button-style-dark button-style-icon fa fa-long-arrow-right smoth-scroll" href="#contact">Contact Me</a>
-            </div>
-            
-            </div>    
-          </div>
-         </div>
-       </section>
-       <!-- Call to Action End -->
-       
-       
-       
-       
-    <!-- Contact Start -->
-    <section id="contact" class="contact-us section-space-padding">
-       <div class="container">
-          <div class="row">
-                <div class="col-sm-12">
-                    <div class="section-title">
-                        <h2>Contact Me.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                    </div>
-                </div>
-            </div>
-            
-            
-           <div class="text-center margin-top-10 margin-bottom-50">
-            <div class="row">
-            
-               <div class="col-md-4 col-sm-4">
-                <div class="contact-us-detail">  
-                 <i class="fa fa-mobile color-6"></i>
-                  <p><a href="tel:+1234567890">+1234 567 890</a></p>
-                 </div>
-                </div>
-               
-               <div class="col-md-4 col-sm-4">
-                <div class="contact-us-detail">
-                 <i class="fa fa-mail-reply color-5"></i>
-                  <p><a href="mailto:name@domain.com">name@domain.com</a></p>
-                 </div>
-                </div>
-                 
-               <div class="col-md-4 col-sm-4">
-                <div class="contact-us-detail">
-                 <i class="fa fa-clock-o color-3"></i>
-                  <p>Mon - Fri 09:00 – 18:00</p>
-                 </div>
-                </div>
-              
-               </div>
-              </div>
-            
-         
-         <div class="row">
-           
-           <div class="col-md-6">   
-                 
-               <div class="row">
-                  <form>
-                    
-					  <div class="col-sm-6">
-						<div class="form-group">
-						  <input type="text" id="name" class="form-control" placeholder="Your Name">
-						 </div>
-                        </div>
-								
-                       <div class="col-sm-6">
-					    <div class="form-group">
-						 <input type="email" id="email" class="form-control" placeholder="Your Email">
-						 </div>
-                        </div>
-                        
-                        <div class="col-sm-6">
-						  <div class="form-group">
-							<input type="text" id="website" class="form-control" placeholder="Your Website">
-						   </div>
-                          </div>
-                          
-                        <div class="col-sm-6">
-						  <div class="form-group">
-							<input type="text" id="address" class="form-control" placeholder="Where are You From?">
-						   </div>
-                          </div>
-								
-                         <div class="col-sm-12">
-						  <select id="subject" class="form-group form-control">
-							<option value="" selected disabled>Subject</option>
-							<option>Website Design & Development</option>
-							<option>Wordpress Development</option>
-							<option>Search Engine Optimization</option>
-                            <option>Mobile Website</option>
-							<option>I Want to General Talk</option>
-                            <option>Other</option>
-						   </select>
-                          </div>
-								
-                       <div class="col-sm-12">
-					    <div class="textarea-message form-group">
-					      <textarea id="message" class="textarea-message form-control" placeholder="Your Message" rows="5"></textarea>
-						  </div>
-                         </div>
-                   
-                   
-                    <div class="text-center">      
-		   <button type="submit" class="button button-style button-style-dark button-style-icon fa fa-long-arrow-right text-center">Submit</button>
-	                  </div>
-                       
-                  </form>
-                   
-				</div>
-               </div>
-            
-            
-            <div class="col-md-6">   
-              <div id="my-address" class="map space-set">
-              <p>Map will not be display without Internet Connection.</p>
-            </div>
-           </div>
-           
-        
-        </div>
-       </div>
-       
-      <div class="margin-top-80"> 
-       <ul class="social-icon">
-         <li><a href="#" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
-         <li><a href="#" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></li>
-         <li><a href="#" target="_blank" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
-         <li><a href="#" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a></li>
-         <li><a href="#" target="_blank" class="dribbble"><i class="fa fa-dribbble"></i></a></li>
-       </ul>
-      </div>
-       
-     </section>
-     <!-- Contact End -->
-       
-        
-        
-        
-    <!-- Footer Start -->
-    <footer class="footer-section">
-        <div class="container">
-            <div class="row">
-               
-      <div class="col-md-4 text-left">
-       <p><span><a href="#about" class="smoth-scroll">About Me</a></span> | <span><a href="#portfolio" class="smoth-scroll">Portfolio</a></span></p>
-          </div>
-               
-            <div class="col-md-4 text-center">
-               <p>© Copyright 2016 Rolling.</p>
-               </div>
-              
-             <div class="col-md-4 uipasta-credit text-right">
-                <p>Design By <a href="http://www.uipasta.com" target="_blank" title="UiPasta">UiPasta</a></p>
-                </div>
-                
-             </div>
-        </div>
-    </footer>
-    <!-- Footer End -->
-    
-    
-    <!-- Back to Top Start -->
-    <a href="#" class="scroll-to-top"><i class="fa fa-angle-up"></i></a>
-    <!-- Back to Top End -->
-    
-    
-    <!-- All Javascript Plugins  -->
-    <script type="text/javascript" src="{{ asset('js/jquery.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/plugin.js') }}"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyC0HAKwKinpoFKNGUwRBgkrKhF-sIqFUNA"></script>
-    
-    <!-- Main Javascript File  -->
-    <script type="text/javascript" src="{{ asset('js/scripts.js')}}"></script>
-  
-  
+    </div>
+</div>
   </body>
  </html>
