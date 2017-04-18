@@ -130,7 +130,7 @@ height: auto;
                             <img style="object-fit: cover;" src="{{ asset('img/index.png') }}">
                         </div>
                     </div>
-                    <div style="left: 4%;position: absolute;top: 65%;word-wrap: break-word;">
+                    <div style="left: 4%;position: absolute;top: 60%;word-wrap: break-word;">
 
                          <h2 style="margin: 0;letter-spacing: normal;font: normal normal bold 80px/1.1em raleway,sans-serif;color: #222222;">
                             <span style="background-color: #ffffff;">期待你的加入 </span>
