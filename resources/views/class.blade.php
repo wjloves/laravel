@@ -725,7 +725,7 @@ table.fc-border-separate {
         
     });
   
-})
+});
 }
   </script>
  </html>
