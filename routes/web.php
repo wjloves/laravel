@@ -41,3 +41,6 @@ Route::get('/404',function(){
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('/ajaxClass', 'HomeController@getClass');
+

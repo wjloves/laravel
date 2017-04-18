@@ -105,18 +105,19 @@ height: auto;
     </div>
     <div style="width: 76%;padding-bottom: 0px;min-height: 100%;position: relative;margin: 0 auto;">
         <div style="width: 76%;position: static;top: 0px;">
-            <div style="width: 76%;position: absolute;top: 0px;height: 69px;left: 40%;">
+            <div style="width: 100%;position: absolute;top: 0px;height: 69px;left: 8%;">
                 <div style="width: 100%;left: -12%;"></div>
                 <div style="position: absolute; top: 0;right: 0;bottom: 0;left: 0;">
-                    <div style="left: 10%;width: 67%;position: absolute;top: 31px;height: 25px;">
+                    <div style="position: absolute;top: 32%;"><h1 style="font-style: inherit;font-family: fantasy;">Mayc Dance</h1></div>
+                    <div style="left: 30%;width: 67%;position: absolute;top: 31px;height: 25px;">
                         <div style="text-align: right;width: calc(100% - 0px);height: calc(100% - 0px);white-space: nowrap;display: inline-block;overflow: visible;position: relative;">
-                            <a style="display: inherit; color: grey; width: 74px; height: 25px; position: relative; box-sizing: border-box; overflow: visible;cursor: pointer;font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;" data-listposition="center" href="#" target="_self" ><p style="text-align: center; line-height: 25px;" >HOME</p></a>
-                            <a style="display: inherit; color: grey; width: 74px; height: 25px; position: relative; box-sizing: border-box; overflow: visible;cursor: pointer;font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;" data-listposition="center" href="" target="_self" ><p style="text-align: center; line-height: 25px;" >ABOUT</p></a>
-                            <a style="display: inherit; color: grey; width: 74px; height: 25px; position: relative; box-sizing: border-box; overflow: visible;cursor: pointer;font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;" data-listposition="center" href="" target="_self" ><p style="text-align: center; line-height: 25px;" >MUSIC</p></a>
-                            <a style="display: inherit; color: grey; width: 74px; height: 25px; position: relative; box-sizing: border-box; overflow: visible;cursor: pointer;font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;" data-listposition="center" href="" target="_self" ><p style="text-align: center; line-height: 25px;" >TOUR</p></a>
-                            <a style="display: inherit; color: grey; width: 74px; height: 25px; position: relative; box-sizing: border-box; overflow: visible;cursor: pointer;font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;" data-listposition="center" href="" target="_self" ><p style="text-align: center; line-height: 25px;" >GALLERY</p></a>
-                            <a style="display: inherit; color: grey; width: 74px; height: 25px; position: relative; box-sizing: border-box; overflow: visible;cursor: pointer;font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;" data-listposition="center" href="" target="_self" ><p style="text-align: center; line-height: 25px;" >EPK</p></a>
-                            <a style="display: inherit; color: grey; width: 74px; height: 25px; position: relative; box-sizing: border-box; overflow: visible;cursor: pointer;font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;" data-listposition="center" href="" target="_self" ><p style="text-align: center; line-height: 25px;" >CONTACT</p></a>
+                            <a style="display: inherit; color: grey; width: 74px; height: 25px; position: relative; box-sizing: border-box; overflow: visible;cursor: pointer;font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;" data-listposition="center" href="" target="_self" ><p style="color: #000;text-align: center; line-height: 25px;" >首页</p></a>
+                            <a style="display: inherit; color: grey; width: 74px; height: 25px; position: relative; box-sizing: border-box; overflow: visible;cursor: pointer;font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;" data-listposition="center" href="" target="_self" ><p style="text-align: center; line-height: 25px;" >关于我们</p></a>
+                            <a style="display: inherit; color: grey; width: 74px; height: 25px; position: relative; box-sizing: border-box; overflow: visible;cursor: pointer;font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;" data-listposition="center" href="{{ url('class') }}" target="_self" ><p style="text-align: center; line-height: 25px;" >课程</p></a>
+                            <a style="display: inherit; color: grey; width: 74px; height: 25px; position: relative; box-sizing: border-box; overflow: visible;cursor: pointer;font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;" data-listposition="center" href="" target="_self" ><p style="text-align: center; line-height: 25px;" >视频</p></a>
+                            <a style="display: inherit; color: grey; width: 74px; height: 25px; position: relative; box-sizing: border-box; overflow: visible;cursor: pointer;font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;" data-listposition="center" href="" target="_self" ><p style="text-align: center; line-height: 25px;" >资讯</p></a>
+                            <a style="display: inherit; color: grey; width: 74px; height: 25px; position: relative; box-sizing: border-box; overflow: visible;cursor: pointer;font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;" data-listposition="center" href="" target="_self" ><p style="text-align: center; line-height: 25px;" >合作</p></a>
+                            <a style="display: inherit; color: grey; width: 74px; height: 25px; position: relative; box-sizing: border-box; overflow: visible;cursor: pointer;font: normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif;" data-listposition="center" href="" target="_self" ><p style="text-align: center; line-height: 25px;" >联系我们</p></a>
                         </div>
                     </div>
                 </div>
@@ -126,28 +127,16 @@ height: auto;
                 <div style="left: 0px;width: 76%;height: 71%;">
                     <div style="left: 194px;position: absolute;top: 0px;width: 910px;height: 70%;">
                         <div style="display: block;overflow: hidden;position: relative;">
-                            <img style="object-fit: cover;" src="https://static.wixstatic.com/media/a38016_26f20c8c994c42be844b164e04070605.jpg/v1/fill/w_1820,h_1370,al_c,q_90,usm_0.66_1.00_0.01/a38016_26f20c8c994c42be844b164e04070605.webp">
+                            <img style="object-fit: cover;" src="{{ asset('img/index.png') }}">
                         </div>
                     </div>
-                    <div style="left: 30px;width: 607px;position: absolute;top: 334px;word-wrap: break-word;">
-                        <h2 style="margin: 0;letter-spacing: normal;font: normal normal bold 80px/1.1em raleway,sans-serif;color: #222222;">
-                            <span style="background-color: #ffffff;">MAYC </span>
-                        </h2>
-                         <h2 style="margin: 0;letter-spacing: normal;font: normal normal bold 80px/1.1em raleway,sans-serif;color: #222222;">
-                            <span style="background-color: #ffffff;">DACNE</span>
-                        </h2>
+                    <div style="left: 4%;position: absolute;top: 65%;word-wrap: break-word;">
+
                          <h2 style="margin: 0;letter-spacing: normal;font: normal normal bold 80px/1.1em raleway,sans-serif;color: #222222;">
                             <span style="background-color: #ffffff;">期待你的加入 </span>
                         </h2>
                     </div>
-                    <div style="left: -5px;width: 461px;position: absolute;top: 244px;word-wrap: break-word;">
-                        <h1 style="margin: 0;line-height: normal;letter-spacing: normal; font: normal normal bold 30px/1.1em marzo-w00-regular,fantasy;color: #222222;">
-                            <a style="color: inherit;cursor: pointer;text-decoration: none;" href="#" target="_self"><span style="letter-spacing: 0.3em;">MAYC</span></a>
-                        </h1>
-                        <h1 style="margin: 0;line-height: normal;letter-spacing: normal;font: normal normal bold 30px/1.1em marzo-w00-regular,fantasy;color: #222222;">
-                            <a style="color: inherit;cursor: pointer;text-decoration: none;" href="#" target="_self"><span style="letter-spacing: 0.3em;">DANCE</span><span style="letter-spacing: 0.3em;">//</span></a>
-                        </h1>
-                    </div>
+
                 </div>
             </div>
             <div style="width: 980px;position: absolute;left: 193px; height: 44px;bottom: auto;top: 765px;">
