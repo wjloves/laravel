@@ -630,6 +630,7 @@ table.fc-border-separate {
 </div>
   </body>
   <script>
+  $(function (){
   $.getScript('http://arshaw.com/js/fullcalendar-1.6.4/fullcalendar/fullcalendar.min.js',function(){
   
   var date = new Date();
@@ -725,5 +726,6 @@ table.fc-border-separate {
     });
   
 })
+}
   </script>
  </html>
