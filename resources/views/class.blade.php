@@ -585,7 +585,11 @@ table.fc-border-separate {
 	cursor: s-resize;
 	}
 	
-	
+#calendar {width: 90%;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    display: block;}	
 
 </style>
   <body>
@@ -624,8 +628,12 @@ table.fc-border-separate {
            
         </div>
     </div>
+    <div class="col-md-12">
+    <h1 class="text-center">行事曆標題</h1>
+		    <hr>
     <div style="width:95%" id='calendar'>
     
+    </div>
     </div>
 </div>
   </body>
