@@ -26,6 +26,11 @@ Route::get('/welcome', function () {
 Route::get('/class', function () {
     return view('class');
 });
+
+Route::get('/demo', function () {
+    return view('demo');
+});
+
 Route::get('/home/login',function (){
   return view('s');
 })->name('login');

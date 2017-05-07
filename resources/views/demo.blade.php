@@ -22,7 +22,7 @@
     <![endif]-->
 <style type="text/css">
 body {
-    min-height: auto;
+    min-height: 2000px;
 }
 .navbar-static-top {
     margin-bottom: 19px;
@@ -99,16 +99,17 @@ body {
         </div>
     </div>
     <div class="container-fluid" style="min-height: 192px;padding-right: 0;padding-left: 0; margin-top: 5px;">
+     <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="hover" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">可消失的弹出框</a>
     </div>
     <div class="container">
-      <!--   <div class="row">
+        <div class="row">
             <div class="col-md-6">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/E7QDuuAS82M" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="col-md-6">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/E7QDuuAS82M" frameborder="0" allowfullscreen></iframe>
             </div>
-        </div> -->
+        </div>
     </div>
 
 
