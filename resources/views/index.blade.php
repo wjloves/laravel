@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <meta name="description" content="">
+    <meta name="keyword" content="工作室，舞蹈，教学，兴趣，Mayc Dance，Mayc，Dance">
+    <meta name="description" content="Mayc Dance,Mayc,Dance,梅西舞蹈，梅西舞蹈工作室，工作室，maycdance，mayc dance，mayc，dance">
     <meta name="author" content="">
     <link rel="icon" href="{{ asset('img/favicon.ico') }}">
 
-    <title>demo</title>
+    <title>Mayc Dance</title>
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
 
