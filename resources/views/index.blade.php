@@ -86,7 +86,7 @@ body {
         <div class="row">
             <div class="col-md-11 navbar-right" style="display: block;overflow: hidden;position: relative;">
                 <div class="starter-template">
-                <img src="{{ asset('img/index.png') }}" class="img-responsive img-rounded" alt="Responsive image">
+                <img src="{{ asset('img/dance.png') }}" class="img-responsive img-rounded" alt="Responsive image">
                 </div>
             </div>
             <div class="col-md-4 phone-hidden" style="margin-top: 18%;margin-left: -2%; position: absolute;">
