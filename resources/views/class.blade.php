@@ -36,7 +36,7 @@
 
 <style type="text/css">
 body {
-    min-height: 1200px;
+    min-height: auto;
 }
 .navbar-static-top {
     margin-bottom: 19px;
@@ -124,8 +124,6 @@ body {
                   center: 'title',
                   right: 'month'
               },
-              defaultDate: '2017-04-12',
-
               eventLimit: true, // allow "more" link when too many events
              // monthNames: ['1', '2', '3', '4', '5', "6", "7", "8", "9", "10", "11", "12"],
               dayNames: ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"],
@@ -159,113 +157,117 @@ body {
               },
 
           });
-
-
-
-
       });
 
-      $(function (){
+  $(function (){
 
-  var date = new Date();
-  var d = date.getDate();
-  var m = date.getMonth();
-  var y = date.getFullYear();
+      var date = new Date();
+      var d = date.getDate();
+      var m = date.getMonth();
+      var y = date.getFullYear();
 
-  $('#calendar').fullCalendar({
-        header: {
-          left: 'prev,next today',
-          center: 'title',
-        },
-        editable: true,
-        events: [
-          {
-            title: 'All Day Event',
-            start: new Date(y, m, 1),
-            url: 'http://tracy.taironlife.com/'
-          },
-          {
-            title: 'Long Event',
-            start: new Date(y, m, d-5),
-            end: new Date(y, m, d-2)
-          },
-          {
-            id: 999,
-            title: 'Repeating Event',
-            start: new Date(y, m, d-3, 16, 0),
-            allDay: false
-          },
-          {
-            id: 999,
-            title: 'Repeating Event',
-            start: new Date(y, m, d+4, 16, 0),
-            allDay: false
-          },
-          {
-            title: 'Meeting',
-            start: new Date(y, m, d),
-          },
-          {
-            title: 'Lunch',
-            start: new Date(y,m,18),
-          },
-          {
-            title: 'Birthday Party',
-            start: new Date(y, m, d+1, 19, 0),
-            end: new Date(y, m, d+1, 22, 30),
-            allDay: false
-          },
-          {
-            title: 'Click for tracy',
-            start: new Date(y, m, 28),
-            end: new Date(y, m, 29),
-            url: 'http://tracy.taironlife.com/'
-          }
-        ],
-        eventClick: function(event) {
-            if (event.url) {
-                //window.open(event.url);
-                alert(event.url);
-                return false;
-            }
-        },
-        buttonText: {
-            today: '今天',
-            month: '月',
-        },
-        allDayText: "整天",
-        timeFormat: {
-            '': 'H:mm{-H:mm}'
-        },
-        weekMode: "variable",
-        columnFormat: {
-            month: 'dddd',
-            week: 'dddd M-d',
-            day: 'dddd M-d'
-        },
-        titleFormat: {
-            month: 'yyyy年 MMMM月',
-            week: "[yyyy年] MMMM月d日 { '—' [yyyy年] MMMM月d日}",
-            day: 'yyyy年 MMMM月d日 dddd'
-        },
-        monthNames: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
-        dayNames: ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"]
-    });
+      $('#calendar').fullCalendar({
+            header: {
+              left: 'prev,next today',
+              center: 'title',
+            },
+            editable: true,
+            events: [
+              {
+                title: 'All Day Event',
+                start: new Date(y, m, 1),
+                url: 'http://tracy.taironlife.com/'
+              },
+              {
+                title: 'Long Event',
+                start: new Date(y, m, d-5),
+                end: new Date(y, m, d-2)
+              },
+              {
+                id: 999,
+                title: 'Repeating Event',
+                start: new Date(y, m, d-3, 16, 0),
+                allDay: false
+              },
+              {
+                id: 999,
+                title: 'Repeating Event',
+                start: new Date(y, m, d+4, 16, 0),
+                allDay: false
+              },
+              {
+                title: 'Meeting',
+                start: new Date(y, m, d),
+              },
+              {
+                title: 'Lunch',
+                start: new Date(y,m,18),
+              },
+              {
+                title: 'Birthday Party',
+                start: new Date(y, m, d+1, 19, 0),
+                end: new Date(y, m, d+1, 22, 30),
+                allDay: false
+              },
+              {
+                title: 'Click for tracy',
+                start: new Date(y, m, 28),
+                end: new Date(y, m, 29),
+                url: 'http://tracy.taironlife.com/'
+              }
+            ],
+            eventClick: function(event) {
+                if (event.url) {
+                    //window.open(event.url);
+                    alert(event.url);
+                    return false;
+                }
+            },
+            buttonText: {
+                today: '今天',
+                month: '月',
+            },
+            allDayText: "整天",
+            timeFormat: {
+                '': 'H:mm{-H:mm}'
+            },
+            weekMode: "variable",
+            columnFormat: {
+                month: 'dddd',
+                week: 'dddd M-d',
+                day: 'dddd M-d'
+            },
+            titleFormat: {
+                month: 'yyyy年 MMMM月',
+                week: "[yyyy年] MMMM月d日 { '—' [yyyy年] MMMM月d日}",
+                day: 'yyyy年 MMMM月d日 dddd'
+            },
+            monthNames: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+            dayNames: ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"]
+        });
+     setAtter();
   });
 
-  $(function(){
+ //切换页面时重新赋值
+  $("#calendar").click(function(){
+    setAtter();
+  });
+
+ //设置显示信息
+  function setAtter(){
     setTimeout(function(){
-   $("#calendar a").each(function(){
-    $(this).attr("data-toggle","popover");
-    $(this).attr("data-trigger","hover");
-    $(this).attr("data-content","And here's some amazing content. It's very engaging. Right?");
-    $(this).attr("data-placement","top");
-    $(this).attr("data-html","true");
-     $('[data-toggle="popover"]').popover();
-        console.log($(this).html());
-   });
-},1000);
-  });
+           $("#calendar a").each(function(){
+                $(this).attr("data-toggle","popover");
+                $(this).attr("data-trigger","click");
+                $(this).attr("title","MaycDance");
+                 $(this).attr("container","body");
+                $(this).attr("data-content","And here's some amazing content. It's very engaging. Right?");
+                $(this).attr("data-placement","top");
+                $(this).attr("data-html","true");
+                $('[data-toggle="popover"]').popover();
+           });
+    },1000);
+  }
   </script>
   <script src="{{ asset('js/bootstrap.min.js') }}"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
