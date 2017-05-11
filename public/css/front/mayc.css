@@ -1,0 +1,39 @@
+body {
+    min-height: auto;
+}
+.navbar-static-top {
+    margin-bottom: 19px;
+}
+.navbar-default .navbar-brand{
+    font-style: inherit;
+    font-family: fantasy;
+    color:#484141;
+}
+.navbar-default{
+    margin-top:15px;
+    border: none;
+}
+.mc-text-img{
+    background-color: #ffffff;font-size: 50px;
+}
+
+.mc-text-img-top{
+    padding-right: 10px;
+}
+.mc-text-img-bigger{
+    font-size: 80px;
+}
+.big-size{
+    font-size: 100px;
+    margin-right: 52px;
+}
+
+@media (min-width: 100px){
+.phone-hidden{
+  /*  display: none;*/
+}
+.big-size{
+    font-size: 30px;
+    margin-right: 0px;
+}
+}
