@@ -42,7 +42,7 @@
             <li><a href="/">首页</a></li>
             <li><a href="/class">课程表</a></li>
             <li><a href="/about">关于我们</a></li>
-            <li><a href="/notice">资讯</a></li>
+            <li><a href="#">资讯</a></li>
             <li><a href="/FAQ">FAQ</a></li>
           </ul>
         </div><!--/.nav-collapse -->
