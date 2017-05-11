@@ -1,23 +1,5 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="csrf-token" content="{{ csrf_token() }}" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="{{ asset('img/favicon.ico') }}">
-
-    <title>demo</title>
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="{{ asset('css/ie10-workaround-bug.css') }}" rel="stylesheet">
-
-    <!-- Main CSS Stylesheet -->
+@extends('layouts.header')
+@section('content')<!-- Main CSS Stylesheet -->
    <!--  <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}"> -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/fullcalendar.min.css') }}">
 
@@ -28,92 +10,17 @@
 
       <script src="{{ asset('js/calendar/fullcalendar.min.js')}}"></script>
 
-    <!-- HTML5 shiv and Respond.js support IE8 or Older for HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-	   <script src="{{ asset('js/html5.js')}}"></script>
-	   <script src="{{ asset('js/respond.min.js')}}"></script>
-    <![endif]-->
-
-<style type="text/css">
-body {
-    min-height: auto;
-}
-.navbar-static-top {
-    margin-bottom: 19px;
-}
-.navbar-default .navbar-brand{
-    font-style: inherit;
-    font-family: fantasy;
-    color:#484141;
-}
-.navbar-default{
-    margin-top:15px;
-    border: none;
-}
-.mc-text-img{
-    background-color: #ffffff;font-size: 50px;
-}
-
-.mc-text-img-top{
-    padding-right: 10px;
-}
-.mc-text-img-bigger{
-    font-size: 80px;
-}
-.fc-event{
-  background-color:#ffffff;
-  color: #000000;
-  border: none;
-}
-.fc-event:hover{
-  color:#8c8787;
-}
-@media (min-width: 400px){
-.phone-hidden{
-  /*  display: none;*/
-}
-}
-</style>
- </head>
-
-  <body>
-
-    <nav class="navbar navbar-default navbar-static-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <p><a class="navbar-brand" href="#"><strong>Mayc Dance</strong></a><small>Studio</small></p>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="/">首页</a></li>
-            <li><a href="/class">课程表</a></li>
-            <li><a href="#">关于我们</a></li>
-            <li><a href="#">Static top <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Fixed top</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-
     <div class="container">
 
           <div class="col-md-12" style="margin-top:100px;">
 
                <h1 class="text-center">课程表</h1>
-      		    <hr>
+              <hr>
               <div id='calendar'></div>
 
           </div>
 
     </div>
-
-  </body>
 
   <script>
       $(function (){
@@ -269,7 +176,4 @@ body {
     },1000);
   }
   </script>
-  <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="{{ asset('js/ie10-workaround-bug.css') }}"></script>
- </html>
+@endsection

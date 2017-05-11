@@ -1,101 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
-    
-    <!-- Meta Tag -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    <!-- SEO -->
-    <meta name="description" content="150 words">
-    <meta name="author" content="uipasta">
-    <meta name="url" content="http://www.yourdomainname.com">
-    <meta name="copyright" content="company name">
-    <meta name="robots" content="index,follow">
-    
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="keyword" content="工作室，舞蹈，教学，兴趣，Mayc Dance，Mayc，Dance">
+    <meta name="description" content="Mayc Dance,Mayc,Dance,梅西舞蹈，梅西舞蹈工作室，工作室，maycdance，mayc dance，mayc，dance">
+    <meta name="author" content="">
+    <link rel="icon" href="{{ asset('img/favicon.ico') }}">
+
     <title>Mayc Dance</title>
-    
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}">
-    <link rel="apple-touch-icon" sizes="144x144" type="image/x-icon" href="{{ asset('img/apple-touch-icon.png') }}">
-    
-    <!-- All CSS Plugins -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/plugin.css') }}">
-    
-    <!-- Main CSS Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
-    
-    <!-- Google Web Fonts  -->
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700"> -->
-    
-    
-    <!-- HTML5 shiv and Respond.js support IE8 or Older for HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-	   <script src="{{ asset('js/html5.js')}}"></script>
-	   <script src="{{ asset('js/respond.min.js')}}"></script>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="{{ asset('css/ie10-workaround-bug.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/front/mayc.css') }}" rel="stylesheet">
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
+     <!--[if lt IE 9]>
+       <script src="{{ asset('js/html5.js') }}"></script>
+       <script src="{{ asset('js/respond.min.js') }}"></script>
     <![endif]-->
-    
+</head>
 
- </head>
+<body>
 
-  <body>
-    
-    
-	
-	<!-- Preloader Start -->
-    <div id="preloader">
-	  <div class="loader"></div>
-    </div>
-    <!-- Preloader End -->
-
-    
-    
-    <!-- Home & Menu Section Start -->
-    <header id="home" class="home-section">
-        
-        <div class="header-top-area">
-            <div class="container">
-                <div class="row">
-                
-                    <div class="col-sm-3">
-                        <div class="logo">
-                            <a href="index-2.html">MaycDance</a>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-9">
-                        <div class="navigation-menu">
-                            <div class="navbar">
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                        <span class="sr-only">Toggle navigation</span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-                                </div>
-                                <div class="navbar-collapse collapse">
-                                    <ul class="nav navbar-nav navbar-right">
-                                        <li class="active"><a class="smoth-scroll" href="#home">首页 <div class="ripple-wrapper"></div></a>
-                                        </li>
-                                        <li><a class="smoth-scroll" href="#about">公告</a>
-                                        </li>
-                                        <li><a class="smoth-scroll" href="#portfolio">小伙伴们</a>
-                                        </li>
-                                        <li><a class="smoth-scroll" href="#testimonials">视频&图片</a>
-                                        </li>
-                                        <li><a class="smoth-scroll" href="#services">课程</a>
-                                        </li>
-                                        <li><a class="smoth-scroll" href="#contact">联系我们</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <p><a class="navbar-brand" href="#"><strong>Mayc Dance</strong></a><small>Studio</small></p>
         </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/">首页</a></li>
+            <li><a href="/class">课程表</a></li>
+            <li><a href="/about">关于我们</a></li>
+            <li><a href="/notice">资讯</a></li>
+            <li><a href="/FAQ">FAQ</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    @yield('content')
+    <!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="{{ asset('js/ie10-workaround-bug.css') }}"></script>
+<script type="text/javascript">
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    });
+</script>
+</body>
+</html>

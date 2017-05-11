@@ -11,6 +11,7 @@
 |
 */
 
+/*前台*/
 Route::get('/', function () {
     return view('index');
 });
@@ -31,13 +32,24 @@ Route::get('/demo', function () {
     return view('demo');
 });
 
+Route::get('/notice', function () {
+    return view('demo');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/FAQ', function () {
+    return view('faq');
+});
+
+
+/*后台*/
 Route::get('/home/login',function (){
   return view('s');
 })->name('login');
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index');
 
 Route::get('/404',function(){
 	return view('404');
