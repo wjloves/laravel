@@ -173,7 +173,7 @@
                 $(this).attr("data-html","true");
                 $('[data-toggle="popover"]').popover();
            });
-           $("#calendar .fc-row .fc-week .fc-widget-content .fc-rigid").each(function(){
+           $("#calendar .fc-row").each(function(){
                $(this).css("overflow","visible");
            });
     },1000);
