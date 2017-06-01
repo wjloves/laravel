@@ -27,6 +27,9 @@ body {
     font-size: 100px;
     margin-right: 52px;
 }
+.text-primary{
+    line-height: 20px;
+}
 
 @media (min-width: 100px){
 .phone-hidden{

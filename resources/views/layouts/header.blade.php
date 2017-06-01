@@ -16,7 +16,7 @@
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="{{ asset('css/ie10-workaround-bug.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/front/mayc.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/front/mayc.css') }}?v=1" rel="stylesheet">
     <script src="{{ asset('js/jquery.min.js') }}"></script>
      <!--[if lt IE 9]>
        <script src="{{ asset('js/html5.js') }}"></script>
