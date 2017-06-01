@@ -165,7 +165,7 @@
     setTimeout(function(){
            $("#calendar a").each(function(){
                 $(this).attr("data-toggle","popover");
-                $(this).attr("data-trigger","click");
+                $(this).attr("data-trigger","hover");
                 $(this).attr("title","MaycDance");
                  $(this).attr("container","body");
                 $(this).attr("data-content","And here's some amazing content. It's very engaging. Right?");
