@@ -176,6 +176,7 @@
            $("#calendar .fc-row").each(function(){
                $(this).css("overflow","visible");
            });
+           $("#calendar .fc-scroller").css("overflow","visible");
     },1000);
   }
   </script>
