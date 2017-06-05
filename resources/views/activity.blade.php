@@ -3,9 +3,6 @@
     <div class="container-fluid" style="min-height: 392px;padding-right: 0;padding-left: 0; margin-top: 5px;">
     <img src="{{ asset('img/banner_faq.png') }}" class="img-responsive img-rounded" alt="Responsive image">
     </div>
-    
-    <div class="container-fluid" style="min-height: 192px;padding-right: 0;padding-left: 0; margin-top: 5px;">
-    </div>
     <div class="container">
         <div class="row">
           <div class="text-center">
