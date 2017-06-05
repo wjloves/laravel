@@ -42,6 +42,9 @@ Route::get('/about', function () {
 Route::get('/FAQ', function () {
     return view('faq');
 });
+Route::get('/activity', function () {
+    return view('activity');
+});
 
 
 /*后台*/
