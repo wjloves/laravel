@@ -41,6 +41,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="/">首页</a></li>
             <li><a href="/class">课程表</a></li>
+            <li><a href="/activity">活动</a></li>
             <li><a href="/about">关于我们</a></li>
             <li><a href="#">资讯</a></li>
             <li><a href="/FAQ">FAQ</a></li>
