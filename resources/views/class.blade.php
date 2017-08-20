@@ -8,7 +8,7 @@
       <script src="{{ asset('js/jquery.min.js')}}"></script>
       <script src="{{ asset('js/calendar/moment.min.js')}}"></script>
 
-      <script src="{{ asset('js/calendar/fullcalendar.min.js')}}"></script>
+      <script src="{{ asset('js/calendar/fullcalendar.min.js')}}?v=1"></script>
 
     <div class="container">
 
@@ -166,18 +166,20 @@
            $("#calendar a").each(function(){
                 $(this).attr("data-toggle","popover");
                 $(this).attr("data-trigger","hover");
-                $(this).attr("title","MaycDance");
-                 $(this).attr("container","body");
+                $(this).attr("container","body");
                 $(this).attr("data-content","And here's some amazing content. It's very engaging. Right?");
                 $(this).attr("data-placement","top");
                 $(this).attr("data-html","true");
+                $(this).css("background-color","#fff");
+                $(this).css("color","#000");
+                $(this).css("border-color","#fff");
                 $('[data-toggle="popover"]').popover();
            });
            $("#calendar .fc-row").each(function(){
                $(this).css("overflow","visible");
            });
            $("#calendar .fc-scroller").css("overflow","visible");
-    },1000);
+    },300);
   }
   </script>
 @endsection
